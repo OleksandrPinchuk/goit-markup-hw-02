@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="uk">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфоліо</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
@@ -27,76 +30,76 @@
     </header>
     <!--  Герой   -->
     <main>
-       <section>
+       <section class="portfolio">
         <h1 hidden>Великий заголовок</h1>
-        <ul class="list">
+        <ul class="filter list">
             <li><button type="button" class="button-portfolio">Усі</button></li>
             <li><button type="button" class="button-portfolio">Веб-сайти</button></li>
             <li><button type="button" class="button-portfolio">Додатки</button></li>
             <li><button type="button" class="button-portfolio">Дизайн</button></li>
             <li><button type="button" class="button-portfolio">Маркетинг</button></li>
         </ul>
-        <ul class="list">
+        <ul class="portfolio-cards list">
             <li>
-                <a href="">
+                <a href="" class="card-link">
                 <img src="./images/port-1.jpg" alt="Сайт на моніторі" width="370" height="294">
-                <h2>Технокряк</h2>
-                <p>Веб-сайт</p>
+                <h2 class="card-title">Технокряк</h2>
+                <p class="card-text">Веб-сайт</p>
                 </a>
             <li>
-                <a href="">
+                <a href="" class="card-link">
                 <img src="./images/port-2.jpg" alt="Постер баскетбол" width="370" height="294">
-                <h2>Постер <span lang="en">New Orlean vs Golden Star</span></h2>
-                <p>Дизайн</p>
+                <h2 class="card-title">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
+                <p class="card-text">Дизайн</p>
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="" class="card-link">
                 <img src="./images/port-3.jpg" alt="Логотип ресторану" width="370" height="294">
-                <h2>Ресторан <span lang="en">Seafood</span></h2>
-                <p>Додаток</p>
+                <h2 class="card-title">Ресторан <span lang="en">Seafood</span></h2>
+                <p class="card-text">Додаток</p>
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="" class="card-link">
                     <img src="./images/port-4.jpg" alt="Навушники" width="370" height="294">
-                    <h2>Проєкт <span lang="en">Prime</span></h2>
-                    <p>Маркетинг</p>
+                    <h2 class="card-title">Проєкт <span lang="en">Prime</span></h2>
+                    <p class="card-text">Маркетинг</p>
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="" class="card-link">
                     <img src="./images/port-5.jpg" alt="Коробки" width="370" height="294">
-                    <h2>Проєкт <span lang="en">Boxes</span></h2>
-                    <p>Додаток</p>
+                    <h2 class="card-title">Проєкт <span lang="en">Boxes</span></h2>
+                    <p class="card-text">Додаток</p>
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="" class="card-link">
                     <img src="./images/port-6.jpg" alt="Сайт в моноблоці" width="370" height="294">
-                    <h2><span lang="en">Inspiration has no Borders</span></h2>
-                    <p>Веб-сайт</p>
+                    <h2 class="card-title"><span lang="en">Inspiration has no Borders</span></h2>
+                    <p class="card-text">Веб-сайт</p>
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="" class="card-link">
                     <img src="./images/port-7.jpg" alt="Книжка" width="370" height="294">
-                    <h2>Видання <span lang="en">Limited Edition</span></h2>
-                    <p>Дизайн</p>
+                    <h2 class="card-title">Видання <span lang="en">Limited Edition</span></h2>
+                    <p class="card-text">Дизайн</p>
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="" class="card-link">
                     <img src="./images/port-8.jpg" alt="Бірка" width="370" height="294">
-                    <h2>Проєкт <span lang="en">LAB</span></h2>
-                    <p>Маркетинг</p>
+                    <h2 class="card-title">Проєкт <span lang="en">LAB</span></h2>
+                    <p class="card-text">Маркетинг</p>
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="" class="card-link">
                     <img src="./images/port-9.jpg" alt="Робочий процес за ноутбуком" width="370" height="294">
-                    <h2><span lang="en">Growing Business</span></h2>
-                    <p>Додаток</p>
+                    <h2 class="card-title"><span lang="en">Growing Business</span></h2>
+                    <p class="card-text">Додаток</p>
                 </a>
             </li>
             
@@ -108,9 +111,9 @@
         <a href="./index.html" class="logo">Web<span class="footer-accent">Studio</span></a>
         <address class="footer-adress link">
             <ul class="footer-list list">
-                <li><a href="" class="footer-items">м. Київ, пр-т Лесі Українки, 26</a></li>
-                <li><a href="mailto:info@devstudio.com" class="footer-contact">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111" class="footer-contact">+38 096 111 11 11</a></li>
+                <li><a href="" class="footer-adress link">м. Київ, пр-т Лесі Українки, 26</a></li>
+                <li><a href="mailto:info@devstudio.com" class="footer-contact link">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111" class="footer-contact link">+38 096 111 11 11</a></li>
             </ul>
         </address>
     
