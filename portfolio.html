@@ -6,31 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфоліо</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
-<body>
-    <header>
-        <a href="index.html">WebStudio</a>
+<body class="page">
+    <!-- Шапка сайту -->
+    <header class="page-header">
+        <a href="./index.html" class="logo">Web<span>Studio</span></a>
         <nav>
-            <ul>
-                <li><a href="./index.html">Студія</a></li>
-                <li><a href="./portfolio.html">Портфоліо</a></li>
-                <li><a href="">Контакти</a></li>
+            <ul class="site-nav list">
+                <li><a href="./index.html" class="link">Студія</a></li>
+                <li><a href="./portfolio.html" class="link current">Портфоліо</a></li>
+                <li><a href="" class="link">Контакти</a></li>
             </ul>
         </nav>
-        <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="contact-nav list">
+            <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+            <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
         </ul>
     </header>
+    <!--  Герой   -->
     <main>
        <section>
+        <h1 hidden>Великий заголовок</h1>
         <ul>
-            <li><button type="button">Усі</button></li>
-            <li><button type="button">Веб-сайти</button></li>
-            <li><button type="button">Додатки</button></li>
-            <li><button type="button">Дизайн</button></li>
-            <li><button type="button">Маркетинг</button></li>
+            <li><button type="button" class="button-portfolio">Усі</button></li>
+            <li><button type="button" class="button-portfolio">Веб-сайти</button></li>
+            <li><button type="button" class="button-portfolio">Додатки</button></li>
+            <li><button type="button" class="button-portfolio">Дизайн</button></li>
+            <li><button type="button" class="button-portfolio">Маркетинг</button></li>
         </ul>
         <ul>
             <li>
@@ -84,7 +88,7 @@
             <li>
                 <a href="">
                     <img src="./images/port-8.jpg" alt="Бірка" width="370" height="294">
-                    <h2>Проєкт<span lang="en">LAB</span></h2>
+                    <h2>Проєкт <span lang="en">LAB</span></h2>
                     <p>Маркетинг</p>
                 </a>
             </li>
