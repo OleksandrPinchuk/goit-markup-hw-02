@@ -6,6 +6,9 @@
     --black-background-color: #2F303A;
     --accent-color: #2196F3;
     --white-text-color: #FFFFFF;
+    --footer-contact-color: rgba(255, 255, 255, 0.6);
+    --logo-accent-color: #000000;
+
 }
 
 .page {
@@ -17,8 +20,8 @@
     color: var(--accent-color);
 }
 
-.logo > span {
-    color: #000000;
+.logo .logo-accent {
+    color: var(--logo-accent-color);
 }
 
 .list {
@@ -87,9 +90,16 @@
 /* footer */
 .footer {
     background-color: var(--black-background-color);
-    color: var(--white-text-color);
+
 }
-.logo-footer > span {
+.logo .footer-accent {
     color:  var(--white-text-color);
 
+}
+.footer-items {
+    color: var(--white-text-color);
+}
+
+.footer-contact {
+    color: var(--footer-contact-color);
 }
