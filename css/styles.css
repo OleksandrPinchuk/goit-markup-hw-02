@@ -14,7 +14,7 @@
 .page {
    background-color: var(--primary-background-color); 
    color: var(--primary-text-color);
-   font-family: roboto, sans-serif;
+   font-family: 'roboto', sans-serif;
    font-weight: 400;
    font-size: 16px;
    letter-spacing: 0.03em;
@@ -54,6 +54,10 @@
 .contact-nav .link {
     color: var(--primary-text-color);
     text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .contact-nav .link:hover,
@@ -84,6 +88,7 @@
 .button {
     background-color:var(--accent-color);
     color: var(--white-text-color);
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -103,6 +108,7 @@
 .button-portfolio {
     color: var(--title-text-color);
     background-color: var(--secondary-background-color);
+    font-family: inherit;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.63;
@@ -118,7 +124,6 @@
 /* section */
 .section-title {
     color: var(--title-text-color);
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -126,7 +131,6 @@
 /* features */
 .features-title {
     color: var(--title-text-color);
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
@@ -154,7 +158,6 @@
 /* portfolio */
 .card-title {
     color: var(--title-text-color);
-    font-weight: 700;
     font-size: 18px;
     line-height: 2.0;
     letter-spacing: 0.06em;}
